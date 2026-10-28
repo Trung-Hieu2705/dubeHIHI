@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio cá nhân của Mai Trung Hiếu, sinh viên Công nghệ Thông tin tại Đại học Đại Nam.">
+  <meta name="theme-color" content="#101a36">
+  <title>Portfolio | Mai Trung Hiếu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <!-- Câu 1: nav là phần tử ngữ nghĩa bao bọc điều hướng. -->
+    <nav class="nav" aria-label="Điều hướng chính">
+      <div class="container nav__container">
+        <a class="nav__logo" href="#trang-chu" aria-label="Mai Trung Hiếu - về đầu trang">hiếu<span>.</span></a>
+        <ul class="nav__menu">
+          <li><a href="#gioi-thieu">Giới thiệu</a></li>
+          <li><a href="#ky-nang">Kỹ năng</a></li>
+          <li><a href="#du-an">Dự án</a></li>
+          <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Câu 2: main bao bọc nội dung chính duy nhất của trang. -->
+  <main id="trang-chu">
+    <!-- Câu 3: section 1/4 — phần giới thiệu (hero). -->
+    <section class="hero section" id="gioi-thieu" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow"><span class="eyebrow__dot"></span> SINH VIÊN CÔNG NGHỆ THÔNG TIN</p>
+          <h1 id="hero-title">Xin chào, mình là <span class="accent-text">Mai Trung Hiếu.</span></h1>
+          <p class="hero__lead">Mình đang học cách xây dựng website từ những nền tảng đầu tiên: HTML ngữ nghĩa, CSS và thiết kế giao diện thích ứng trên nhiều thiết bị.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#du-an">Khám phá dự án <span aria-hidden="true">↗</span></a>
+            <a class="button button--secondary" href="#ky-nang">Tìm hiểu kỹ năng</a>
+          </div>
+          <div class="hero__meta" aria-label="Thông tin sinh viên">
+            <span><span class="meta-icon" aria-hidden="true">⌘</span> Đại học Đại Nam</span>
+            <span><span class="meta-icon" aria-hidden="true">#</span> MSSV: 2071020073</span>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="Minh họa giao diện lập trình" role="img">
+          <div class="code-window">
+            <div class="code-window__top"><span></span><span></span><span></span><p>portfolio.html</p></div>
+            <div class="code-window__body" aria-hidden="true">
+              <p><span class="code-line-no">01</span> <span class="code-purple">&lt;main&gt;</span></p>
+              <p><span class="code-line-no">02</span> &nbsp;&nbsp;<span class="code-green">&lt;h1&gt;</span>Xin chào!<span class="code-green">&lt;/h1&gt;</span></p>
+              <p><span class="code-line-no">03</span> &nbsp;&nbsp;<span class="code-purple">&lt;section</span> <span class="code-blue">id</span>=<span class="code-yellow">"skills"</span><span class="code-purple">&gt;</span></p>
+              <p><span class="code-line-no">04</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-muted">/* learn by building */</span></p>
+              <p><span class="code-line-no">05</span> &nbsp;&nbsp;<span class="code-purple">&lt;/section&gt;</span></p>
+              <p><span class="code-line-no">06</span> <span class="code-purple">&lt;/main&gt;</span></p>
+              <div class="code-window__status"><span class="status-pulse"></span> Đang học mỗi ngày <span>HTML · CSS</span></div>
+            </div>
+          </div>
+          <div class="floating-chip floating-chip--top"><span aria-hidden="true">✦</span> Học hỏi liên tục</div>
+          <div class="floating-chip floating-chip--bottom"><span aria-hidden="true">&lt;/&gt;</span> Responsive design</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#ky-nang"><span aria-hidden="true">↓</span> Cuộn để khám phá</a>
+    </section>
+
+    <!-- Câu 3: section 2/4 — các kỹ năng đang học. -->
+    <section class="section skills-section" id="ky-nang" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">NỀN TẢNG CỦA MÌNH</p>
+          <h2 id="skills-title">Kỹ năng đang <span class="accent-text">phát triển</span></h2>
+          <p>Mình ưu tiên hiểu bản chất, thực hành thường xuyên và cải thiện từng bước.</p>
+        </div>
+        <!-- Câu 12: display: grid; Câu 13: grid-template-columns. -->
+        <div class="skills__grid">
+          <div class="skill-card">
+            <div class="skill-card__icon skill-card__icon--html" aria-hidden="true">5</div>
+            <div class="skill-card__label">01 / CẤU TRÚC</div>
+            <h3>HTML5 ngữ nghĩa</h3>
+            <p>Xây dựng cấu trúc trang rõ ràng bằng header, nav, main, section, article và footer.</p>
+            <div class="skill-card__tags"><span>HTML</span><span>Accessibility</span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon skill-card__icon--css" aria-hidden="true">✳</div>
+            <div class="skill-card__label">02 / GIAO DIỆN</div>
+            <h3>CSS & bố cục</h3>
+            <p>Luyện Flexbox, Grid, màu sắc, khoảng cách và tạo giao diện nhất quán.</p>
+            <div class="skill-card__tags"><span>CSS</span><span>Flexbox</span><span>Grid</span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon skill-card__icon--responsive" aria-hidden="true">▣</div>
+            <div class="skill-card__label">03 / THÍCH ỨNG</div>
+            <h3>Responsive Web</h3>
+            <p>Điều chỉnh bố cục để nội dung dễ đọc trên máy tính, máy tính bảng và điện thoại.</p>
+            <div class="skill-card__tags"><span>Media queries</span><span>Mobile-first</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Câu 3: section 3/4 — dự án thực hành. -->
+    <section class="section projects-section" id="du-an" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading section-heading--row">
+          <div>
+            <p class="eyebrow">HỌC QUA THỰC HÀNH</p>
+            <h2 id="projects-title">Dự án <span class="accent-text">tiêu biểu</span></h2>
+          </div>
+          <p>Các sản phẩm nhỏ giúp mình củng cố kiến thức và thử nghiệm điều mới.</p>
+        </div>
+        <!-- Câu 15: auto-fit + minmax giúp tự động xuống dòng theo chiều rộng. -->
+        <div class="projects__grid">
+          <!-- Câu 4: article 1/3 — một thẻ dự án độc lập. -->
+          <article class="project-card">
+            <div class="project-card__visual project-card__visual--portfolio" aria-hidden="true">
+              <div class="mini-browser"><div class="mini-browser__bar"><i></i><i></i><i></i></div><div class="mini-browser__content"><span class="mini-kicker"></span><span class="mini-title"></span><span class="mini-title mini-title--short"></span><div class="mini-buttons"><i></i><i></i></div></div></div>
+              <span class="project-card__number">01</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__type">WEBSITE CÁ NHÂN</div>
+              <h3>Portfolio cá nhân</h3>
+              <p>Trang giới thiệu bản thân, kỹ năng và các bài thực hành web với bố cục responsive.</p>
+              <div class="project-card__footer"><span>HTML · CSS</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+            </div>
+          </article>
+          <!-- Câu 4: article 2/3 — một thẻ dự án độc lập. -->
+          <article class="project-card">
+            <div class="project-card__visual project-card__visual--landing" aria-hidden="true">
+              <div class="landing-preview"><span class="landing-preview__bar"></span><span class="landing-preview__hero"></span><span class="landing-preview__text"></span><div><i></i><i></i><i></i></div></div>
+              <span class="project-card__number">02</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__type">BÀI TẬP GIAO DIỆN</div>
+              <h3>Landing page học tập</h3>
+              <p>Thực hành phân cấp tiêu đề, nút kêu gọi hành động, màu sắc và khoảng trắng.</p>
+              <div class="project-card__footer"><span>HTML · CSS Grid</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+            </div>
+          </article>
+          <!-- Câu 4: article 3/3 — một thẻ dự án độc lập. -->
+          <article class="project-card">
+            <div class="project-card__visual project-card__visual--tasks" aria-hidden="true">
+              <div class="task-preview"><span class="task-preview__title"></span><span class="task-row"><i></i><b></b></span><span class="task-row"><i></i><b></b></span><span class="task-row"><i></i><b></b></span><span class="task-row"><i></i><b></b></span></div>
+              <span class="project-card__number">03</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__type">Ý TƯỞNG SẢN PHẨM</div>
+              <h3>Giao diện quản lý việc</h3>
+              <p>Bản phác thảo giao diện danh sách công việc, trạng thái và khu vực ưu tiên.</p>
+              <div class="project-card__footer"><span>UI · Responsive</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+            </div>
+          </article>
+        </div>
+        <p class="projects__note"><span aria-hidden="true">ⓘ</span> Đây là các bài thực hành và ý tưởng học tập, không phải sản phẩm thương mại.</p>
+      </div>
+    </section>
+
+    <!-- Câu 3: section 4/4 — mục tiêu và thông tin liên hệ. -->
+    <section class="section contact-section" id="lien-he" aria-labelledby="contact-title">
+      <div class="container contact-panel">
+        <div class="contact-panel__copy">
+          <p class="eyebrow">BƯỚC TIẾP THEO</p>
+          <h2 id="contact-title">Từng bước trở thành <span class="accent-text">lập trình viên tốt hơn.</span></h2>
+          <p>Mục tiêu của mình là xây nền tảng lập trình vững chắc, rèn tư duy giải quyết vấn đề và tìm hiểu sâu hơn về an toàn thông tin trong tương lai.</p>
+        </div>
+        <div class="contact-panel__details">
+          <div class="contact-detail"><span class="contact-detail__icon" aria-hidden="true">⌂</span><div><small>TRƯỜNG</small><strong>Đại học Đại Nam</strong></div></div>
+          <div class="contact-detail"><span class="contact-detail__icon" aria-hidden="true">#</span><div><small>SINH VIÊN</small><strong>Mai Trung Hiếu · 2071020073</strong></div></div>
+          <div class="contact-detail"><span class="contact-detail__icon" aria-hidden="true">↗</span><div><small>HỌC PHẦN</small><strong>FIT4014 · Thiết kế Web</strong></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Câu 5: footer là chân trang chứa thông tin bản quyền. -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="nav__logo footer__logo" href="#trang-chu">hiếu<span>.</span></a>
+      <p>Được xây dựng bằng HTML ngữ nghĩa và CSS responsive.</p>
+      <p>© 2026 Mai Trung Hiếu · Đại học Đại Nam</p>
+    </div>
+  </footer>
+</body>
+</html>

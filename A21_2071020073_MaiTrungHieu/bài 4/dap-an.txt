@@ -1,0 +1,31 @@
+ĐẠI HỌC ĐẠI NAM — FIT4014
+BÀI TẬP THỰC HÀNH SỐ 4: PORTFOLIO CÁ NHÂN
+Sinh viên: Mai Trung Hiếu | MSSV: 2071020073
+
+ĐÁP ÁN 21 CÂU
+1. B — nav
+2. C — main
+3. C — section
+4. D — article
+5. A — footer
+6. A — box-sizing
+7. D — flex
+8. B — justify-content
+9. B — padding
+10. B — margin-bottom
+11. B — border-radius
+12. C — grid
+13. B — grid-template-columns
+14. B — box-shadow
+15. C — repeat(auto-fit, minmax(300px, 1fr))
+16. A — overflow
+17. B — object-fit
+18. B — 768px
+19. C — 480px
+20. B — flex-direction
+21. C — 1fr
+
+GIẢI THÍCH RESPONSIVE
+- Desktop (rộng từ 1024px): thanh điều hướng nằm ngang; hero có hai cột; kỹ năng hiển thị 3 cột; dự án tự động chia cột theo diện tích khả dụng.
+- Tablet (max-width: 768px): điều hướng chuyển thành các hàng; hero chuyển thành một cột; kỹ năng hiển thị 2 cột; phần thông tin liên hệ được xếp lại để tránh chật.
+- Mobile (max-width: 480px): menu có thể xuống hàng; kỹ năng và dự án hiển thị 1 cột; nút hành động rộng toàn phần; khoảng cách và kích thước chữ được điều chỉnh để dễ đọc.
